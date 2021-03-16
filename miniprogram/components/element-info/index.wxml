@@ -1,0 +1,44 @@
+<view class="attr-wrap">
+  <view class="element-title">{{ title }}
+      <text class="element-date">{{ date }}</text>
+  </view>
+  <text class="blockquota">{{ blockquota }}</text>
+  <rich-text class="desc" nodes="{{ desc}}" ></rich-text>
+  <block wx:for="{{ attrs }}" wx:key="name">
+        <view class="attr-item">
+          <text class="attr-name">{{ item.name}}</text>
+          <text class="attr-desc">{{ item.desc}}</text>
+          <view class="table">
+            <view class="table-head">
+              <text class="table-head-item">类型</text>
+              <text class="table-head-item">默认值</text>
+              <text class="table-head-item">必填</text>
+              <text class="table-head-item">最低版本</text>
+            </view>
+            <view class="table-content">
+              <text class="attr-type">{{ item.type}}</text>
+              <text class="attr-default">{{ item.default || '-'}}</text>
+              <text class="attr-required, {{element.required(item.required) === '是'}}" >{{ element.required(item.required)}}</text>
+              <text class="attr-version">{{ item.version}}</text>
+            </view>
+          </view>
+        </view>
+    </block>
+</view>
+
+<wxs module="element">
+	var text = '';
+	module.exports = {
+    // 判断是否必填
+		required: function(value) {
+      if(value === '是' || value === '否'){
+        return value;
+      }
+      else if(!value){
+        return '否'
+      }
+
+      return '是';
+		},
+	};
+</wxs>

@@ -1,0 +1,9 @@
+<view class="container">
+    <element-info 
+      title="{{title}}"  
+      date="{{date}}" 
+      blockquota="{{blockquota}}"
+      desc="{{desc}}"
+      attrs="{{attrs}}">
+    </element-info>
+</view>

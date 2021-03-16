@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="view-box">
+      <text class="block-title">视图容器</text>
+      <block wx:for="{{ viewBox }}" wx:key="item">
+          <navigator class="block-item" url="{{ item.path }}">
+            <text class="block-item-label">{{ item.label }}</text>
+            <text class="block-item-desc">{{ item.desc }}</text>
+          </navigator>
+      </block>
+  </view>
+</view>

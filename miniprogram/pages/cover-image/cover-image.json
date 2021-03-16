@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "element-info": "../../components/element-info/index"
+  }
+}

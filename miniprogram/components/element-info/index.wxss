@@ -1,0 +1,145 @@
+
+.attr-wrap{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  padding: 20rpx 0;
+}
+/* 元素的名称 */
+.element-title{
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 0.4em;
+  font-family: 'Courier New', Courier, monospace;
+   font-size: 60rpx;
+   color: #333;
+   font-weight: 600;
+}
+
+/* 元素的书写日期 */
+.element-date{
+ font-family: 'Courier New', Courier, monospace;
+   font-size: 30rpx;
+   color: #666;
+}
+.element-date::before{
+   content: '(';
+   display: inline-flex;
+   align-items: center;
+   margin-right: 2px;
+}
+.element-date::after{
+ content: ')';
+ display: inline-flex;
+ align-items: center;
+ margin-left: 2px;
+}
+
+/* 引用 */
+.blockquota{
+ position: relative;
+ display: flex;
+ align-items: center;
+ color: #ccc;
+ font-size: 32rpx;
+}
+.blockquota::before{
+ content: '';
+ display: inline-block;
+ vertical-align: middle;
+ width: 5px;
+ height: 15px;
+ background-color: #ccc;
+ margin-right: 10rpx;
+}
+
+/* 标签描述 */
+.desc{
+ display: flex;
+ align-items: center;
+ padding: 20rpx;
+ font-size: 32rpx;
+}
+
+.desc .span{
+ padding: 0 0.15em;
+ color: rgba(50, 113, 230, 0.712);
+}
+
+/* 属性描述 */
+.attr-item{
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 0 20rpx;
+  text-align: left;
+}
+/* 属性名称 */
+.attr-name{
+  display: block;
+  padding: 20rpx 0;
+  font-weight: 500;
+  color: #666;
+  font-size: 50rpx;
+}
+/* 属性说明 */
+.attr-desc{
+    display: block;
+    margin-bottom: 1em;
+    font-size: 32rpx;
+    color: #999;
+}
+/* 其他属性表 */
+.table{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  border: 1px solid #eee;
+}
+
+.table-head, .table-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20rpx 0;
+  color: #666;
+}
+.table-head{
+  margin-bottom: 0.25em;
+  border-bottom: 1px solid #eee;
+}
+
+.table-head-item{
+  flex: 1;
+  font-weight: bold;
+  color: #333;
+}
+.table-content>text{
+  flex: 1;
+  font-size: 30rpx;
+  font-weight: 400;
+}
+
+/* 属性类型 */
+.attr-type{
+  color: rgb(8, 187, 68);
+}
+
+/* 默认值 */
+.attr-default{
+    color: #333;
+}
+
+/* 是否必填 */
+.attr-required{
+  color: #aaa;
+}
+.attr-required.true{
+  color: red;
+}
