@@ -1,0 +1,10 @@
+<!-- 组件示例列表 -->
+<view class="demo-list">
+    <view class="demo-title">{{ title }}:</view>
+    <block wx:for="{{demos}}" wx:key="index">
+        <navigator class="demo-item" url="{{ item.path }}">
+            <text class="demo-item-desc">{{ item.desc }}</text>
+            <text class="iconfont icon-arrow-right"></text>
+        </navigator>
+    </block>
+</view>

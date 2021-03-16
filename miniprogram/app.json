@@ -2,14 +2,18 @@
     "pages": [
         "pages/index/index",
         "pages/cover-image/cover-image",
-        "pages/cover-view/index"
+        "pages/cover-view/index",
+        "pages/match-media/index",
+        "pages/match-media/demos/demo1/index",
+        "pages/match-media/demos/demo2/index"
     ],
     "usingComponents": {
         "element-info": "./components/element-info/index",
         "element-table": "./components/element-table/index",
         "category-list": "./components/category-list/index",
         "element-tip": "./components/tip/index",
-        "element-bug": "./components/bug/index"
+        "element-bug": "./components/bug/index",
+        "demo-list": "./components/demo-list/index"
     },
     "window": {
         "backgroundTextStyle": "light",

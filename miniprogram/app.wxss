@@ -1,12 +1,35 @@
 /**app.wxss**/
 .container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  box-sizing: border-box;
-  padding: 20rpx 0;
-} 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding: 20rpx 0;
+}
 
+/* 通用iconfont */
+@font-face {
+    font-family: 'iconfont';
+    /* project id 548418 */
+    src: url('//at.alicdn.com/t/font_548418_704cgktjav3.eot');
+    src: url('//at.alicdn.com/t/font_548418_704cgktjav3.eot?#iefix') format('embedded-opentype'),
+        url('//at.alicdn.com/t/font_548418_704cgktjav3.woff2') format('woff2'),
+        url('//at.alicdn.com/t/font_548418_704cgktjav3.woff') format('woff'),
+        url('//at.alicdn.com/t/font_548418_704cgktjav3.ttf') format('truetype'),
+        url('//at.alicdn.com/t/font_548418_704cgktjav3.svg#iconfont') format('svg');
+}
 
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* 向右的箭头 */
+.icon-arrow-right::before {
+    content: '\e65f';
+}

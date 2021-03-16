@@ -21,6 +21,12 @@
                 {
                     "name": "pages/cover-view/index",
                     "pathName": "pages/cover-view/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/match-media/index",
+                    "pathName": "pages/match-media/index",
                     "scene": null
                 }
             ]

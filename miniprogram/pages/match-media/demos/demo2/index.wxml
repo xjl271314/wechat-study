@@ -1,0 +1,3 @@
+<match-media min-height="400" orientation="landscape">
+    <view>当页面高度不小于 400 px 且屏幕方向为横向时展示这里</view>
+</match-media>
