@@ -1,9 +1,6 @@
 <view class="container">
-    <element-info 
-      title="{{title}}"  
-      date="{{date}}" 
-      blockquota="{{blockquota}}"
-      desc="{{desc}}"
-      attrs="{{attrs}}">
+    <element-info title="{{title}}" date="{{date}}" blockquota="{{blockquota}}" desc="{{desc}}" attrs="{{attrs}}">
     </element-info>
+
+    <element-table title="{{table1.title}}" head="{{ table1.head }}" content="{{table1.content}}"></element-table>
 </view>

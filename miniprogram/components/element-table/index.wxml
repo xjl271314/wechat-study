@@ -1,0 +1,15 @@
+<view class="element-table">
+    <view class="table-title">{{ title }}</view>
+    <view class="table-head">
+        <block wx:for="{{ head}}" wx:key="item">
+            <text class="table-head-item">{{item}}</text>
+        </block>
+    </view>
+    <block wx:for="{{ content}}" wx:key="item">
+        <view class="table-content">
+            <block wx:for="{{item}}" wx:key="index" wx:for-item="iitem">
+                <text class="table-content-item">{{iitem}}</text>
+            </block>
+        </view>
+    </block>
+</view>

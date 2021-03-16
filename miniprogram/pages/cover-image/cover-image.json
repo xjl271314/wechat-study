@@ -1,5 +1,6 @@
 {
-  "usingComponents": {
-    "element-info": "../../components/element-info/index"
-  }
+    "usingComponents": {
+        "element-info": "../../components/element-info/index",
+        "element-table": "../../components/element-table/index"
+    }
 }
