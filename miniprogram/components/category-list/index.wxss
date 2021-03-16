@@ -1,0 +1,39 @@
+.view-box {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0 20rpx;
+}
+
+.block-title {
+    display: block;
+    width: 100%;
+    padding-bottom: 0.5em;
+    font-size: 36rpx;
+    color: #333;
+    border-bottom: 1rpx solid #eee;
+}
+
+.block-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20rpx 0;
+    border-bottom: 1rpx solid #eee;
+}
+
+.block-item-label {
+    font-size: 32rpx;
+    color: #333;
+    font-weight: 400;
+}
+
+.block-item-desc {
+    font-size: 32rpx;
+    color: #aaa;
+    overflow-x: scroll;
+}

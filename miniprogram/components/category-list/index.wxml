@@ -1,0 +1,9 @@
+<view class="view-box">
+    <text class="block-title">{{categoryList.category}}</text>
+    <block wx:for="{{ categoryList.list }}" wx:key="item">
+        <navigator class="block-item" url="{{ item.path }}">
+            <text class="block-item-label">{{ item.label }}</text>
+            <text class="block-item-desc">{{ item.desc }}</text>
+        </navigator>
+    </block>
+</view>

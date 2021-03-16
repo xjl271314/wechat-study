@@ -1,0 +1,22 @@
+<view class="bug-box">
+    <view class="bug-title">{{title}}</view>
+    <block wx:for="{{bugs}}" wx:key="index">
+        <view class="bug">
+            <text class="index">{{ index +1 }}、</text>
+            <rich-text nodes="{{ util.parse(item)}}"></rich-text>
+        </view>
+    </block>
+</view>
+
+<wxs module="util">
+    var reg = getRegExp('([a-z-A-Z]+)', 'ig');
+    var text = '';
+    module.exports = {
+        // 将字符串中的英文替换为code标签
+        parse: function (value) {
+            text = value.replace(reg, '<span class="span">$1</span>');
+
+            return text;
+        }
+    };
+</wxs>

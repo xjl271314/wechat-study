@@ -1,0 +1,6 @@
+<view class="container">
+    <element-info title="{{title}}" date="{{date}}" blockquota="{{blockquota}}" desc="{{desc}}" attrs="{{attrs}}">
+    </element-info>
+    <element-tip tips="{{tips}}"></element-tip>
+    <element-bug bugs="{{bugs}}"></element-bug>
+</view>

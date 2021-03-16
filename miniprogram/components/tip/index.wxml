@@ -1,0 +1,22 @@
+<view class="tip-box">
+    <view class="tip-title">{{title}}</view>
+    <block wx:for="{{tips}}" wx:key="index">
+        <view class="tip">
+            <text class="index">{{ index +1 }}、</text>
+            <rich-text nodes="{{ util.parse(item)}}"></rich-text>
+        </view>
+    </block>
+</view>
+
+<wxs module="util">
+    var reg = getRegExp('([a-z-A-Z:\d]+)', 'ig');
+    var text = '';
+    module.exports = {
+        // 将字符串中的英文替换为code标签
+        parse: function (value) {
+            text = value.replace(reg, '<span class="span">$1</span>');
+
+            return text;
+        }
+    };
+</wxs>
