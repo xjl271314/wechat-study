@@ -27,6 +27,12 @@
                 {
                     "name": "pages/match-media/index",
                     "pathName": "pages/match-media/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/live-player/index",
+                    "pathName": "pages/live-player/index",
                     "scene": null
                 }
             ]

@@ -1,0 +1,30 @@
+<view class="container">
+    <element-info title="{{title}}" date="{{date}}" blockquota="{{blockquota}}" desc="{{desc}}" attrs="{{attrs}}">
+    </element-info>
+    <view class="flex-auto">
+        <element-table title="{{table1.title}}" head="{{ table1.head }}" content="{{table1.content}}"></element-table>
+    </view>
+    <element-table title="{{mode.title}}" head="{{ mode.head }}" content="{{mode.content}}"></element-table>
+    <element-table title="{{orientation.title}}" head="{{ orientation.head }}" content="{{orientation.content}}">
+    </element-table>
+    <element-table title="{{objectfit.title}}" head="{{ objectfit.head }}" content="{{objectfit.content}}">
+    </element-table>
+    <element-table title="{{soundmode.title}}" head="{{ soundmode.head }}" content="{{soundmode.content}}">
+    </element-table>
+    <element-table title="{{picture.title}}" head="{{picture.head }}" content="{{picture.content}}"></element-table>
+    <view class="indent2">
+        <element-table title="{{statuscode.title}}" head="{{ statuscode.head }}" content="{{statuscode.content}}">
+        </element-table>
+    </view>
+
+    <view class="flex-auto">
+        <element-table title="{{network.title}}" head="{{ network.head }}" content="{{network.content}}">
+        </element-table>
+    </view>
+
+    <view class="markdown">
+        <markdown nodes="{{infos}}"></markdown>
+    </view>
+
+    <element-tip tips="{{tips}}"></element-tip>
+</view>

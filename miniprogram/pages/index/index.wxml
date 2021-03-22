@@ -1,4 +1,6 @@
 <!--index.wxml-->
 <view class="container">
-    <category-list categoryList="{{categoryList}}"> </category-list>
+    <category-list categoryList="{{viewList}}"> </category-list>
+
+    <category-list categoryList="{{mediaList}}"> </category-list>
 </view>

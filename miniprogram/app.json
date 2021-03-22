@@ -5,7 +5,9 @@
         "pages/cover-view/index",
         "pages/match-media/index",
         "pages/match-media/demos/demo1/index",
-        "pages/match-media/demos/demo2/index"
+        "pages/match-media/demos/demo2/index",
+        "pages/live-player/index",
+        "pages/video/index"
     ],
     "usingComponents": {
         "element-info": "./components/element-info/index",
@@ -13,7 +15,9 @@
         "category-list": "./components/category-list/index",
         "element-tip": "./components/tip/index",
         "element-bug": "./components/bug/index",
-        "demo-list": "./components/demo-list/index"
+        "demo-list": "./components/demo-list/index",
+        "towxml": "./components/towxml/towxml",
+        "markdown": "./components/markdown/index"
     },
     "window": {
         "backgroundTextStyle": "light",

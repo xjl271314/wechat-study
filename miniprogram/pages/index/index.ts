@@ -4,7 +4,7 @@ const app = getApp<IAppOption>()
 
 Page({
     data: {
-        categoryList: {
+        viewList: {
             category: '视图容器',
             list: [{
                 label: 'cover-image',
@@ -19,6 +19,20 @@ Page({
                 desc: 'media query 匹配检测节点。',
                 path: '/pages/match-media/index'
             }]
+        },
+        mediaList: {
+            category: '媒体组件',
+            list: [
+                {
+                    label: 'video',
+                    desc: '视频（v2.4.0 起支持同层渲染）。',
+                    path: '/pages/video/index'
+                },
+                {
+                    label: 'live-player',
+                    desc: '实时音视频播放（v2.9.1 起支持同层渲染）。',
+                    path: '/pages/live-player/index'
+                }],
         },
     },
     onLoad() {

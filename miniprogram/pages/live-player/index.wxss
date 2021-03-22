@@ -1,0 +1,27 @@
+.flex-auto .table-head-item {
+    flex: auto;
+}
+
+.flex-auto .table-content-item:last-child {
+    text-align: left;
+}
+
+.indent2 .table-head-item {
+    text-align: left;
+    text-indent: 2em;
+}
+
+.indent2 .table-content-item {
+    text-align: left;
+    text-indent: 2.5em;
+}
+
+.indent2 .table-content-item:last-child {
+    text-indent: 0;
+}
+
+.markdown {
+    flex: 1;
+    justify-self: start;
+    align-self: start;
+}
