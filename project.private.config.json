@@ -33,6 +33,19 @@
                 {
                     "name": "pages/live-player/index",
                     "pathName": "pages/live-player/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "Video",
+                    "pathName": "pages/video/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "Video Demo弹幕示例",
+                    "pathName": "pages/video/demos/demo1/index",
+                    "query": "",
                     "scene": null
                 }
             ]

@@ -1,0 +1,31 @@
+<view class="container">
+    <element-info title="{{title}}" date="{{date}}" blockquota="{{blockquota}}" desc="{{desc}}" attrs="{{attrs}}">
+    </element-info>
+
+    <element-table title="{{direction.title}}" head="{{ direction.head }}" content="{{direction.content}}">
+    </element-table>
+
+    <element-table title="{{objectfit.title}}" head="{{ objectfit.head }}" content="{{objectfit.content}}">
+    </element-table>
+
+    <element-table title="{{playbtnposition.title}}" head="{{ playbtnposition.head }}"
+        content="{{playbtnposition.content}}">
+    </element-table>
+
+    <element-table title="{{picture.title}}" head="{{ picture.head }}" content="{{picture.content}}">
+    </element-table>
+
+    <element-tip tips="{{tips}}"></element-tip>
+
+    <element-table title="{{tableType.title}}" head="{{ tableType.head }}" content="{{tableType.content}}">
+    </element-table>
+
+    <element-table title="{{tableType2.title}}" head="{{ tableType2.head }}" content="{{tableType2.content}}">
+    </element-table>
+
+    <view class="markdown">
+        <markdown nodes="{{infos}}"></markdown>
+    </view>
+
+    <demo-list demos="{{demos}}"></demo-list>
+</view>
