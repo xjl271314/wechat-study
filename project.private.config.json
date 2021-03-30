@@ -47,6 +47,18 @@
                     "pathName": "pages/video/demos/demo1/index",
                     "query": "",
                     "scene": null
+                },
+                {
+                    "name": "movable-area",
+                    "pathName": "pages/movable-area/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "movable-view",
+                    "pathName": "pages/movable-view/index",
+                    "query": "",
+                    "scene": null
                 }
             ]
         }

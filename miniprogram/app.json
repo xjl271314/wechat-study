@@ -8,7 +8,9 @@
         "pages/match-media/demos/demo2/index",
         "pages/live-player/index",
         "pages/video/index",
-        "pages/video/demos/demo1/index"
+        "pages/video/demos/demo1/index",
+        "pages/movable-area/index",
+        "pages/movable-view/index"
     ],
     "usingComponents": {
         "element-info": "./components/element-info/index",

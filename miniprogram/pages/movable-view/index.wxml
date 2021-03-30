@@ -1,0 +1,11 @@
+<view class="container">
+    <element-info title="{{title}}" date="{{date}}" blockquota="{{blockquota}}" desc="{{desc}}" attrs="{{attrs}}">
+    </element-info>
+
+
+    <element-table title="{{bindchange.title}}" head="{{ bindchange.head }}" content="{{bindchange.content}}">
+    </element-table>
+
+
+    <element-tip tips="{{tips}}"></element-tip>
+</view>
