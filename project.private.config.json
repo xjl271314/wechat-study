@@ -59,6 +59,23 @@
                     "pathName": "pages/movable-view/index",
                     "query": "",
                     "scene": null
+                },
+                {
+                    "name": "page-container",
+                    "pathName": "pages/page-container/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "scroll-view",
+                    "pathName": "pages/scroll-view/index",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "scroll-view-demo1",
+                    "pathName": "pages/scroll-view/demos/demo1/index",
+                    "scene": null
                 }
             ]
         }

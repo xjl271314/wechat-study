@@ -1,0 +1,32 @@
+.page-section-spacing {
+    margin-top: 60rpx;
+}
+
+.scroll-view_H {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.scroll-view-item {
+    height: 300rpx;
+}
+
+.demo-text-1 {
+    background: green;
+}
+
+.demo-text-2 {
+    background: yellow;
+}
+
+.demo-text-3 {
+    background: rgb(194, 47, 138);
+}
+
+.scroll-view-item_H {
+    display: inline-block;
+    width: 100%;
+    height: 300rpx;
+    overflow: hidden;
+}

@@ -10,7 +10,10 @@
         "pages/video/index",
         "pages/video/demos/demo1/index",
         "pages/movable-area/index",
-        "pages/movable-view/index"
+        "pages/movable-view/index",
+        "pages/page-container/index",
+        "pages/scroll-view/index",
+        "pages/scroll-view/demos/demo1/index"
     ],
     "usingComponents": {
         "element-info": "./components/element-info/index",
